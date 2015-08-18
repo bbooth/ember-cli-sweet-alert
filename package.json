@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-sweet-alert",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Adds sweetalerts to an ember-cli project",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,7 +11,7 @@
     "build": "ember build",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": "https://github.com/bbooth/ember-cli-sweet-alerts.git",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -37,7 +37,10 @@
     "ember-try": "0.0.6"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "sweet",
+    "alerts",
+    "sweetalerts"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.0.0"
