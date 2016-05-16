@@ -1,11 +1,14 @@
 (function() {
+	
 	/* globals define, swal */
-	define('swal', [], function() {
-		'use strict';
+	['swal', 'sweetalert'].forEach(function(name) {
+		define(name, [], function() {
+			'use strict';
 
-		return {
-			default: swal
-		};
+			return {
+				default: swal
+			};
+		});
 	});
 
 })();

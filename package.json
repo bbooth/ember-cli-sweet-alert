@@ -11,7 +11,7 @@
     "build": "ember build",
     "test": "ember try:testall"
   },
-  "repository": "https://github.com/bbooth/ember-cli-sweet-alerts.git",
+  "repository": "https://github.com/bbooth/ember-cli-sweet-alert.git",
   "engines": {
     "node": ">= 0.10.0"
   },
