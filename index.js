@@ -14,6 +14,6 @@ module.exports = {
       production: app.bowerDirectory + '/sweetalert/dist/sweetalert.min.js'
     });
 
-    app.import(this.treePaths.vendor + '/sweet-alert-shim.js');
+    app.import(this.treePaths.vendor + '/shim.js');
   },
 };
