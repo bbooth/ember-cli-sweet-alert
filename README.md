@@ -1,12 +1,21 @@
-# Ember-cli-sweet-alert
+# ember-cli-sweet-alert
 
-This README outlines the details of collaborating on this Ember addon.
+Adds [Sweet Alert](http://t4t5.github.io/sweetalert) plugin to Ember applications.
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+```bash
+ember install ember-cli-sweet-alert
+```
+
+## Usage
+
+```javascript
+import swal from 'sweetalert'
+
+swal("Here's a message!")
+
+```
 
 ## Running
 
