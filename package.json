@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-sweet-alert",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Adds sweetalerts to an ember-cli project",
   "keywords": [
     "ember-addon",
